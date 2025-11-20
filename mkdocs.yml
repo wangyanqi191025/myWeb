@@ -1,4 +1,38 @@
-site_name: My Docs
+site_name: Personal Webpage of Yanqi Wang
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+    - content.tabs.link
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Tutorials:
+      - Tutorial 1: tutorials/tutorial1.md
+      - Tutorial 2: tutorials/tutorial2.md
+  - Projects:
+      - Project 1: projects/project1.md
+      - Project 2: 
+        - Subproject A: projects/project2/subprojectA.md
+        - Subproject B: projects/project2/subprojectB.md
+  - Blog:
+      - Post 1: blog/post1.md
+      - Post 2: blog/post2.md
+  - test: test.md
